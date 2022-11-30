@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}  
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    left: 250px;
+    height: 380px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+   padding: 12px;
+   position: relative;
+   box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+h3{
+    font-family: sans-serif ;
+    
+}
+.heading-second{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.inp-boxes{
+    margin: 10px 0;
+    align-items: center;
+    width: 100%;
+    height: 34px;
+    padding: 12px;
+}
+.sign{
+    width: 100%;
+    height: 40px;
+    background-color:#0a67c3;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: 15px;
+}
+.line-one{
+    margin-top: 20px;
+    width: 120px;
+    box-shadow: 150px 0px 0 0 ;
+    color: #a7a7a7c3;
+}
+.or{
+    position: absolute;
+    top: 238px;
+    left: 141px;
+}
+.g-logo{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 270px;
+    right: 200px;
+}
+.btn-2{
+    border: 1px solid rgba(0, 0, 0, 0.864);
+    border-radius: 15px;
+    width: 100%;
+    height: 40px;
+    background-color:#0a67c300;
+    margin-top: 10px;
+}
+.a-logo{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 318px;
+    right: 200px;
+}
+.linkedin{
+    height: 65px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+.show{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0a67c3;
+    position: absolute;
+    bottom: 244px;
+    font-size: 12px;
+    left: 248px;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 22px;
+}
+.footer-two{
+    margin-top: 95px;
+    position: relative;
+    left: 15px;
+
+}
+.img-down{
+    height: 20px;
+    position: absolute;
+    bottom: -1px;
+    left: -70px;
+}
